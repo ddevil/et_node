@@ -1,0 +1,120 @@
+@media screen and (max-width: 1170px) {
+	body{
+		background-size: auto;
+	}
+}
+@media screen and (max-width: 600px) {
+	html {
+		-webkit-text-size-adjust: none;
+	}
+	#wrapper {
+		max-width:none;
+		min-height:460px;
+	}
+	.logo {
+		background-position:0 -196px;
+		width:109px;
+		height:110px;
+		margin:0 auto 22px;
+	}
+	.note {
+		display:none;
+	}
+	.note.mobile {
+		display:block;
+		margin:0 0 14px;
+	}
+	#main {
+		height:447px;
+		margin:-208px 0 0;
+	}
+}
+
+@media screen and (max-width: 480px) {
+        html {
+                -webkit-text-size-adjust: none;
+        }
+        #wrapper {
+                max-width:none;
+				min-height:490px;
+        }
+        header {
+                padding:0;
+                height:26px;
+        }
+        header .soc {
+                display:none;
+        }
+        #main {
+                padding:10px 0 40px;
+        }
+        .logo {
+                background-position:0 -196px;
+                width:109px;
+                height:110px;
+                margin:0 auto 22px;
+        }
+}
+
+@media screen and (max-width: 320px) {
+	html {
+		-webkit-text-size-adjust: none;
+	}
+	#wrapper {
+		min-height:437px;
+		max-width:none;
+	}
+	header {
+		display:none;
+	}
+	header .soc {
+		display:none;
+	}
+	#main {
+		height:417px;
+		margin:-208px 0 0;
+		top:50%;
+		padding:0;
+	}
+	.logo {
+		background-position:0 -196px;
+		width:109px;
+		height:110px;
+		margin:0 auto 22px;
+	}
+	.note {
+		display:none;
+	}
+	.note.mobile {
+		display:block;
+		margin:0 0 14px;
+	}
+	.sing-form {
+		border-top:1px solid #2c1c19;
+		width:auto;
+		-webkit-border-radius: 0;
+		-moz-border-radius: 0;
+		border-radius: 0;
+		-webkit-box-shadow: 0 0 0;
+		-moz-box-shadow:    0 0 0;
+		box-shadow:         0 0 0;
+		behavior: url(js/pie.htc);
+	}
+	footer {
+		display:none;
+	}
+}
+@media (-webkit-min-device-pixel-ratio: 2) {
+	.logo {
+		background: url(../images/logo@2x.png) no-repeat;
+		background-size: cover;
+	}
+	header .soc .twitter {
+		background: url(../images/twitter@2x.png) no-repeat;
+		background-size: cover;
+	}
+	header .soc .facebook {
+		background: url(../images/facebook@2x.png) no-repeat;
+		background-size: cover;
+	}
+}
